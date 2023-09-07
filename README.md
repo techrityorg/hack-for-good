@@ -6,17 +6,20 @@ _Starts 18th September, 2023 - 17th October, 2023!_
 
 🚨🚨 Calling all tech communities, hubs, startups and tech enthusiasts to participate in the Hack for Good 2023 organized by Techrity!
 
-Hack for Good aims to bring together builders, innovators and thinkers to develop and hack veritable use cases and solutions aimed at solving unique challenges within the African continent.
+**Hack for Good aims to bring together builders, innovators and thinkers to develop and hack veritable use cases and solutions aimed at solving unique challenges within the African continent.**
 
 ## About Tech for Good
+
 The Tech for Good is a hybrid conference which aims to showcase the impact of using Technology for Social Good in Africa. As part of Tech for Good 3.0 Conference, Hack for Good aims to bring together tech communities, hubs, startups, builders, innovators to develop and hack veritable use cases and solutions aimed at solving unique challenges within the African continent.
 
 ## About Techrity
+
 Techrity is a non-profit that aims to bridge the gap in unemployment, gender inclusion and poverty by providing the vital resources needed to kickstart young talents  into tech and build solutions for SDGs in Africa. We achieve this by providing vital resources such as laptops, browsing data, mentorship support, and inspire innovators and builders through our Build4SocialGood hackathon and incubation programme.
 
 We’re all about helping new talents into Tech and building innovative solutions for social good in Africa.
 
 ## Tracks
+
 * AI and Machine Learning
 * Cybersecurity
 * Blockchain
@@ -25,6 +28,7 @@ We’re all about helping new talents into Tech and building innovative solution
 * Design
 
 ## Terms and Conditions
+
 * Team of 4 persons (Max)
 * Must belong to a tech community
 * At least one member of the team is able to attend the Tech for Good Conference virtually or in person in Port Harcourt, Nigeria.
@@ -70,6 +74,7 @@ TODO
 Sponsor a Track: [Tech for Good Track Sponsor Registration](https://bit.ly/hack-for-good-track-sponsor-2023)
 
 ![Call for Track Sponsor](./images/call_for_track%20Sponsors.png)
+
 
 ## Tech for Good Timeline and Schedule
 
