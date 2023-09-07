@@ -45,15 +45,15 @@ TODO
 
 ## Sponsors
 
-<center>
-    <img src="./images/techrity_logo_new.png"  title="Techrity - Track Sponsor" width="50%"/>
-     <img src="./images/mently1.png"  title="Mently - Track Sponsor" width="50%"/>
-      <img src="./images/xuperauth_logo.jpg"  title="XuperAuth - Track Sponsor" width="50%"/>
-</center>
+<img src="./images/techrity_logo_new.png"  title="Techrity - Track Sponsor" width="50%"/>
+<img src="./images/mently1.png"  title="Mently - Track Sponsor" width="50%"/>
+<img src="./images/xuperauth_logo.jpg"  title="XuperAuth - Track Sponsor" width="50%"/>
+
 
 ## How to Register?
 
 **Steps:**
+
 * Register as a hacker: https://bit.ly/register-hack-for-good-2023 
 * Join the Techrity Slack Channel: https://bit.ly/h4g-2023-join-techrity 
 * Follow us on our socials: @techrityorg and @t4gafrica
