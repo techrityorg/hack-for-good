@@ -6,7 +6,7 @@ _Starts 18th September, 2023 - 17th October, 2023!_
 
 🚨🚨 Calling all tech communities, hubs, startups and tech enthusiasts to participate in the Hack for Good 2023 organized by Techrity!
 
-**Hack for Good aims to bring together builders, innovators and thinkers to develop and hack veritable use cases and solutions aimed at solving unique challenges within the African continent.**
+[Hack for Good](https://t4g.techrity.org/) aims to bring together builders, innovators and thinkers to develop and hack veritable use cases and solutions aimed at solving unique challenges within the African continent.
 
 ## About Tech for Good
 
@@ -34,12 +34,13 @@ We’re all about helping new talents into Tech and building innovative solution
 * At least one member of the team is able to attend the Tech for Good Conference virtually or in person in Port Harcourt, Nigeria.
 
 ## Prizes
-Up to 1,000 USD 
+* Up to 1,000 USD 
 ... plus other AMAZING prizes and swags!
 
 ## Judging Criteria
 
 ![Judging Criteria](./images/Judging_info.png)
+
 
 ## Judges
 TODO
@@ -49,14 +50,14 @@ TODO
 
 ## Sponsors
 
-<img src="./images/techrity_logo_new.png"  title="Techrity - Track Sponsor" width="50%"/>
-<img src="./images/mently1.png"  title="Mently - Track Sponsor" width="50%"/>
-<img src="./images/xuperauth_logo.jpg"  title="XuperAuth - Track Sponsor" width="50%"/>
+<img src="./images/techrity_logo_new.png"  title="Techrity - Track Sponsor" width="30%"/>
+<img src="./images/mently1.png"  title="Mently - Track Sponsor" width="30%"/>
+<img src="./images/xuperauth_logo.jpg"  title="XuperAuth - Track Sponsor" width="30%"/>
+
 
 
 ## How to Register?
 
-**Steps:**
 
 * Register as a hacker: https://bit.ly/register-hack-for-good-2023 
 * Join the Techrity Slack Channel: https://bit.ly/h4g-2023-join-techrity 
@@ -64,10 +65,12 @@ TODO
 * Form a team: See the hackathon guide 
 * Start Building
 
+
 ## How to Submit?
 
 * Submissions will be received via the **Hack for Good 2023 Repo** on GitHub
 * Submit on Dora Hacks using the [Submit a Buidl button](https://bit.ly/register-hack-for-good-2023)
+
 
 ## Want to Sponsor?
 
@@ -76,9 +79,11 @@ Sponsor a Track: [Tech for Good Track Sponsor Registration](https://bit.ly/hack-
 ![Call for Track Sponsor](./images/call_for_track%20Sponsors.png)
 
 
+
+
 ## Tech for Good Timeline and Schedule
 
-**Tech for Good Conf 3.0 Schedule of activities:**
+Tech for Good Conf 3.0 Schedule of activities:
 
 | Date                 | Activity                                 |
 | -------------------- | ---------------------------------------- |
