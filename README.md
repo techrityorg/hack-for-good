@@ -46,12 +46,13 @@ TODO
 ## Sponsors
 
 <center>
-    <img src="./images/techrity_logo_new.png"  title="Techrity - Track Sponsor"/>
-     <img src="./images/mently1.png"  title="Mently - Track Sponsor"/>
-      <img src="./images/xuperauth_logo.jpg"  title="XuperAuth - Track Sponsor"/>
+    <img src="./images/techrity_logo_new.png"  title="Techrity - Track Sponsor" width="50%"/>
+     <img src="./images/mently1.png"  title="Mently - Track Sponsor" width="50%"/>
+      <img src="./images/xuperauth_logo.jpg"  title="XuperAuth - Track Sponsor" width="50%"/>
 </center>
 
 ## How to Register?
+
 **Steps:**
 * Register as a hacker: https://bit.ly/register-hack-for-good-2023 
 * Join the Techrity Slack Channel: https://bit.ly/h4g-2023-join-techrity 
@@ -60,15 +61,18 @@ TODO
 * Start Building
 
 ## How to Submit?
+
 * Submissions will be received via the **Hack for Good 2023 Repo** on GitHub
 * Submit on Dora Hacks using the [Submit a Buidl button](https://bit.ly/register-hack-for-good-2023)
 
 ## Want to Sponsor?
+
 Sponsor a Track: [Tech for Good Track Sponsor Registration](https://bit.ly/hack-for-good-track-sponsor-2023)
 
 ![Call for Track Sponsor](./images/call_for_track%20Sponsors.png)
 
 ## Tech for Good Timeline and Schedule
+
 **Tech for Good Conf 3.0 Schedule of activities:**
 
 | Date                 | Activity                                 |
@@ -92,4 +96,4 @@ Sponsor a Track: [Tech for Good Track Sponsor Registration](https://bit.ly/hack-
 |                      | Mentorship Awards                        |
 |                      | Social Impact Project Showcase           |
 
-Happy Hacking 🚀🚀
+_Happy Hacking 🚀🚀!!_
