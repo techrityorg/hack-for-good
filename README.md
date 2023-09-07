@@ -49,12 +49,14 @@ TODO
 
 ## Sponsors
 
-<img src="./images/techrity_logo_new.png"  title="Techrity - Track Sponsor" width="50%"/>
-<img src="./images/mently1.png"  title="Mently - Track Sponsor" width="50%"/>
-<img src="./images/xuperauth_logo.jpg"  title="XuperAuth - Track Sponsor" width="50%"/>
+| Name of Sponsor | Logo |
+| --------------- | ---- |
+|          Techrity       |   ![Techrity logo](./images/techrity_logo_new.png)   |
+|          Mently       |    ![Mently logo](./images/mently1.png)  |
+|           XuperAuth      |   ![XuperAuth](./images/xuperauth_logo.jpg)   |
 
 
-## How to Register?
+## How to Register?
 
 **Steps:**
 
@@ -76,7 +78,7 @@ Sponsor a Track: [Tech for Good Track Sponsor Registration](https://bit.ly/hack-
 ![Call for Track Sponsor](./images/call_for_track%20Sponsors.png)
 
 
-## Tech for Good Timeline and Schedule
+## Tech for Good Timeline and Schedule
 
 **Tech for Good Conf 3.0 Schedule of activities:**
 
