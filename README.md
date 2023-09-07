@@ -50,10 +50,11 @@ TODO
 
 ## Sponsors
 
-<img src="./images/techrity_logo_new.png"  title="Techrity - Track Sponsor" width="30%"/>
-<img src="./images/mently1.png"  title="Mently - Track Sponsor" width="30%"/>
-<img src="./images/xuperauth_logo.jpg"  title="XuperAuth - Track Sponsor" width="30%"/>
-
+| Name of Sponsor | Logo |
+| --------------- | ---- |
+|          Techrity       |   ![Techrity logo](./images/techrity_logo_new.png)   |
+|          Mently       |    ![Mently logo](./images/mently1.png)  |
+|           XuperAuth      |   ![XuperAuth](./images/xuperauth_logo.jpg)   |
 
 
 ## How to Register?
