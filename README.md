@@ -6,6 +6,8 @@ Verxio Protocol is a non-custodial solution that uses stealth addresses to enabl
 
 Verxio is heavily inspired by [Vitalik's recent article on stealth addresses](https://vitalik.eth.limo/general/2023/01/20/stealth.html).
 
+Verxio Protocol Official Repo: https://github.com/amdonatusprince/verxio-protocol
+
 ## 📝 Project Description
 
 ### ✍ Project Overview
