@@ -1,0 +1,25 @@
+{
+  "short_name": "Xcrypt",
+  "name": "Xcrypt",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "logo192.svg",
+      "type": "image/svg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.svg",
+      "type": "image/svg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#005faf",
+  "background_color": "#10121f"
+}
