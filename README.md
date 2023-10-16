@@ -6,10 +6,10 @@ Verxio Protocol is a non-custodial solution that uses stealth addresses to enabl
 
 Verxio is heavily inspired by [Vitalik's recent article on stealth addresses](https://vitalik.eth.limo/general/2023/01/20/stealth.html).
 
-Verxio Protocol Official Repo: https://github.com/amdonatusprince/verxio-protocol
-StealthAddress Contract: [0xe7f7067c9ecab27c5f7f13e02b13ed50931f6d0f](https://Polygon-testnet.bscscan.com/address/0xe7f7067c9ecab27c5f7f13e02b13ed50931f6d0f)
-Verxio DEMO Video: https://youtu.be/tRNhep3JL4s
-Verxio DEMO Link: https://verxio-protocol.vercel.app/
+- Verxio Protocol Official Repo: https://github.com/amdonatusprince/verxio-protocol
+- StealthAddress Contract: [0xe7f7067c9ecab27c5f7f13e02b13ed50931f6d0f](https://Polygontestnet.bscscan.com/address/0xe7f7067c9ecab27c5f7f13e02b13ed50931f6d0f)
+- Verxio DEMO Video: https://youtu.be/tRNhep3JL4s
+- Verxio DEMO Link: https://verxio-protocol.vercel.app/
 
 ## 📝 Project Description
 
