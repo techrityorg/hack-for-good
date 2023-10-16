@@ -7,6 +7,9 @@ Verxio Protocol is a non-custodial solution that uses stealth addresses to enabl
 Verxio is heavily inspired by [Vitalik's recent article on stealth addresses](https://vitalik.eth.limo/general/2023/01/20/stealth.html).
 
 Verxio Protocol Official Repo: https://github.com/amdonatusprince/verxio-protocol
+StealthAddress Contract: [0xe7f7067c9ecab27c5f7f13e02b13ed50931f6d0f](https://Polygon-testnet.bscscan.com/address/0xe7f7067c9ecab27c5f7f13e02b13ed50931f6d0f)
+Verxio DEMO Video: https://youtu.be/tRNhep3JL4s
+Verxio DEMO Link: https://verxio-protocol.vercel.app/
 
 ## 📝 Project Description
 
@@ -112,6 +115,4 @@ The Verxio Protocol solution leverages these cryptographic methods to create a s
 ### 🌟 Conclusion
 - Verxio Protocol is a user-friendly and innovative solution that addresses the growing need for privacy in blockchain transactions. By leveraging stealth addresses and the Polygon Blockchain, Verxio Protocol provides a simple and cost-effective way for users to keep their financial transactions private. With a substantial market opportunity and a focus on usability, Verxio Protocol has the potential to become a leading privacy solution in the blockchain industry.
 
-### 💪 Deployed Contract Addresses (Polygon Testnet)
-- StealthAddress Contract: [0xe7f7067c9ecab27c5f7f13e02b13ed50931f6d0f](https://Polygon-testnet.bscscan.com/address/0xe7f7067c9ecab27c5f7f13e02b13ed50931f6d0f)
 
