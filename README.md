@@ -11,6 +11,7 @@ Verxio is heavily inspired by [Vitalik's recent article on stealth addresses](ht
 - Verxio DEMO Video: https://youtu.be/tRNhep3JL4s
 - Verxio DEMO Link: https://verxio-protocol.vercel.app/
 
+
 ## 📝 Project Description
 
 ### ✍ Project Overview
