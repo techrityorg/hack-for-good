@@ -433,11 +433,11 @@ https://hanzzo.itch.io/pacifier
 
 ### Screenshots
 
-https://img.itch.zone/aW1hZ2UvMjMxODY5OS8xMzczNjMzNy5wbmc=/original/Kh%2F1XF.png
+![Gameplay](https://img.itch.zone/aW1hZ2UvMjMxODY5OS8xMzczNjMzNy5wbmc=/original/Kh%2F1XF.png)
 
-https://img.itch.zone/aW1hZ2UvMjMxODY5OS8xMzczNjMzOC5wbmc=/original/aZ8BQP.png
+![Gameplay](https://img.itch.zone/aW1hZ2UvMjMxODY5OS8xMzczNjMzOC5wbmc=/original/aZ8BQP.png)
 
-https://img.itch.zone/aW1hZ2UvMjMxODY5OS8xMzczNjMzOS5wbmc=/original/6Y9edC.png
+![Gameplay](https://img.itch.zone/aW1hZ2UvMjMxODY5OS8xMzczNjMzOS5wbmc=/original/6Y9edC.png)
 
-https://img.itch.zone/aW1hZ2UvMjMxODY5OS8xMzczNjM0MC5wbmc=/original/19RXvq.png
+![Gameplay](https://img.itch.zone/aW1hZ2UvMjMxODY5OS8xMzczNjM0MC5wbmc=/original/19RXvq.png)
 
