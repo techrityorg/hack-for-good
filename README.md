@@ -1,118 +1,77 @@
-# Verxio Protocol | Receive crypto on any EVM blockchain without revealing your personal information 
+# magipop Creathon: Make community co-creation possible
+## Github Repo: 
+https://github.com/DocRace/magipop-creathon-identity/tree/main
+## Pitch Video:
+https://youtu.be/-BlsEQ0HAjg
+## Demo Website:
+https://magipop.xyz/forge/
+## Dorahacks:
+https://dorahacks.io/buidl/7678
 
+Build a collaborative content platform, magipop Creathon, on Lit Protocol and CyberConnect to enable large-scale, community-driven co-creation.
 
-Verxio Protocol is a non-custodial solution that uses stealth addresses to enable users to receive crypto on the Polygon Blockchain without revealing the receiver's real address; which serves as their identity on the blockchain.
+Our project, magipop Creathon, is a decentralized content collaboration platform built on Lit Protocol. It allows users to collectively create and showcase narrative projects on topics they are passionate about. 
 
+We built magipop Creathon using the Lit Protocol SDK and CyberConnect SDK. The Lit Protocol SDK allowed us to leverage the protocol's distributed storage capabilities to efficiently store creative content on IPFS. CyberConnect SDK allowed us to manage creator identities and social connections on-chain. Using Rust and WASM, we implemented core components like content storage, version control, and access management.
 
-Verxio is heavily inspired by [Vitalik's recent article on stealth addresses](https://vitalik.eth.limo/general/2023/01/20/stealth.html).
+By taking advantage of Lit Protocol's distributed storage and CyberConnect's creator identity system, magipop Creathon enables seamless collaborative creation across a large community of creators. Creator identities make it easy to permission new projects while benefiting from an established reputation.
 
-- Verxio Protocol Official Repo: https://github.com/amdonatusprince/verxio-protocol
-- StealthAddress Contract: [0xe7f7067c9ecab27c5f7f13e02b13ed50931f6d0f](https://Polygontestnet.bscscan.com/address/0xe7f7067c9ecab27c5f7f13e02b13ed50931f6d0f)
-- Verxio DEMO Video: https://youtu.be/tRNhep3JL4s
-- Verxio DEMO Link: https://verxio-protocol.vercel.app/
+The platform provides creators with tools to submit ideas, iterate on content, and vote on contributions. The collaborative mapping visualization helps creators understand how their work fits into the broader storyscape. 
 
-## 📝 Project Description
+# Innovations
 
-### ✍ Project Overview
-- Hey there, privacy enthusiasts and blockchain explorers! Have you ever wished you could send and receive funds without anyone snooping around your business? Well, say hello to Verxio Protocol – your personal privacy guardian on the Polygon Blockchain. We’re tackling the issue of exposing personal info during transactions by introducing stealth addresses. In simple terms, Verxio Protocol lets you receive funds on the Polygon Blockchain without unveiling your real address.
-- The project draws inspiration from existing privacy-focused blockchains like Monero and tools like Tornado Cash, but aims to bridge the gap between complex and expensive privacy solutions and non-private transfers.
-- It empowers users to maintain their privacy, fostering trust and security in the blockchain industry.
+## Distributed Storage via Lit Protocol
+Lit Protocol's distributed storage allows us to reliably and redundantly store all creative content on IPFS, ensuring its persistence while retaining creator ownership.
 
-### 😎 Idea
-- So, picture this: you’re in the world of blockchain, where transparency is the name of the game. But what if you could be like a digital ninja and keep your financial moves hidden? That’s where Verxio Protocol draws inspiration from cool privacy champs like Monero and Tornado Cash. They’re like those fancy gadgets spies use, but they can be a bit pricey and complicated. But wait, here’s the twist – we’re making privacy simple and accessible for everyone, just like your favorite comfort food.
+## Social Identity and Reputation via CyberConnect 
+CyberConnect enables creators to establish their unique social identities and reputations on-chain, building trust and signaling quality across the creative community.
 
-- Speaking of twists, have you heard of Vitalik’s article about “Stealth Addresses”? It’s like finding the missing piece of the puzzle! Inspired by this ninja move, we’re crafting a tool that lets you go hidden while making transactions. And why Polygon, you ask? Well, it’s like the perfect partner in crime – fast and wallet-friendly transactions. And Verxio Protocol? It’s like your digital alter ego, keeping you anonymous while you make transactions. Cool, right?
+## Anonymous Voting via ZK-SNARKs
+Leveraging zero-knowledge proofs, users can securely vote on content without publicly exposing their preferences. This enables consensus while protecting privacy.
 
-### 📺 Background & Context
-- Issue Addressed: Verxio Protocol addresses the pressing concern of inadequate privacy in blockchain transactions. While the blockchain guarantees transparency and immutability, it simultaneously exposes sensitive details of transactions, such as sender and recipient addresses. This lack of privacy imposes significant risks on both individuals and businesses, potentially connecting their financial actions to real-world identities.
+By leveraging Lit Protocol and CyberConnect, magipop pioneers a new paradigm of collaborative creativity powered by social reputation and community curation.
 
-- Fundamental Privacy: Privacy holds a crucial role in financial transactions. Without a robust privacy layer, users remain vulnerable to an array of risks:
+## **Synergy & Contribution**
+1. magipop fills the gap in Passion Economy and creator spaces, providing unique value.
+2. magipop brings diverse creators into the ecosystem, expanding and enriching the community.
+3. Positive Tokenomics enable creators to earn income beyond speculators, moving beyond Ponzi models towards real utility.
+4. magipop utilizes Lit Protocol's storage and CyberConnect's identity system to integrate AI models for collaborative creativity.
+5. By focusing on niche passion communities, magipop attracts dedicated and engaged users, increasing Protocol activity. 
+6. magipop's transparent approach showcases blockchain strengths to onboard mainstream consumers.
+7. As an innovative co-creation model, magipop demonstrates how Lit Protocol and CyberConnect enable next-gen community applications.
 
-    - Identity Exposure: Open blockchain transactions create an avenue for observers to correlate transactions with specific people or entities. This jeopardizes financial privacy and exposes individuals to potential targeting or surveillance.
+## One-liner
+Al fused co-creation tool for community, forging large-scale creativity into evolving stories.
+## Problem to be solved
+In large-scale creative collaborations, it often becomes confusing, like those cluttered group chats, forums, posts
+We want to find a way to aggregate large-scale ideas, but at the same time keep it structured, so that everyone who wants to participate can quickly get the big picture and the details needed to move forward on the same consensus.
+Creathon is a platform where fans can collaboratively work on and showcase narrative projects on topics they're passionate about.
 
-    - Financial Profiling: In-depth profiling of individuals and businesses becomes possible through the analysis of blockchain transactions. This includes identifying spending habits, income sources, and financial associations. Such data can be exploited for targeted ads, discrimination, or even extortion.
+## Key structure design
+### Co-creation Event: ZK Privacy
+This contract is the cornerstone of our pioneering privacy system. With the assurance of zk-SNARK and autonomous Web3 infrastructure, users on Creathon can experience end-to-end privacy protection.
+- Proof of Creation: Using zk technology, users can submit their creations and affirm their validity without revealing any content.
+- Inspiration Proof: Harnessing zk-SNARK and Magiry.AI, users can verify the uniqueness of their inspirations without disclosing specific content. Concurrently, they can publicize their inspirations to motivate others.
+- Double-blind Voting: Leveraging zk's one-way function, users can confirm the authenticity of their votes without exposing their actions.
+We trust that while zk is the foundation of privacy, it also serves as a vital bridge to consensus.
+## Decentralized Network via Lit Protocol
+magipop Creathon leverages Lit Protocol's excellent seamless p2p network capabilities, secure Web3 infrastructure and robust ecosystem. This elevates the decentralized creative experience, driving innovation and collaborative growth.
+### Idea tracking with LLM 
+What distinguishes us is our creative AI assistant. The "detail_of" method integrates diverse ideas from creators into a structured map. This Lego-like approach enables collaborative creation under a shared worldview. As a user contributes an idea, our AI analyzes and connects it with related ideas.
 
-    - Security Gaps: Transparent blockchains, when repeatedly used for transactions, render users susceptible to hacking and phishing threats. Criminals can analyze transaction histories to discern patterns, monitor balances, and exploit security vulnerabilities.
+Meanwhile, "Creathon" gamifies this process into an exciting competition. Creations are showcased on a map, highlighting interconnections for easy overview and detailed insights.
+### magipop Data Chain
+The magipop Map Contract utilizes Lit Protocol's distributed capabilities, AI, and collective creativity. By initiating with a unique contract hash, we enable a secure and transparent foundation for operations. Leveraging efficiency of Lit Protocol, we ensure crucial data is stored on IPFS, safeguarding creator contributions. The contract connects creators with concepts using functions like "post" and "detail_of". This promotes an organic flow of ideas and natural collaborations.
+## Contact us
+Race Li
+Telegram @RaceLi
+Twitter @melitosnap
+Email callmerace@hotmail.com
 
-    - Business Exposure: Transparent transactions inadvertently reveal confidential financial information of companies, like sales figures, supply chain connections, and partnerships. Competitors can leverage this intel to gain an edge, potentially undermining business competitiveness.
-
-    - Regulatory Hurdles: Certain industries, such as healthcare and finance, mandate stringent privacy regulations. Transparent blockchain transactions could clash with these standards, resulting in legal complications or penalties for non-compliance.
-
-- Significance: Addressing this issue assumes paramount importance due to its direct impact on safeguarding financial confidentiality. Preserving the integrity of personal and corporate information from prying eyes is central. By introducing a user-centric solution that leverages stealth addresses for anonymous transactions, Verxio Protocol empowers users to regain control over their financial privacy and alleviate the potential pitfalls linked with identity exposure.
-
-### ☄️ Value Proposition
-- Enhanced Privacy: Verxio Protocol utilizes stealth addresses, allowing users to receive funds without revealing their real addresses. This provides a significant level of privacy for individuals and businesses, ensuring that their financial activities are shielded from prying eyes.
-
-- User-Friendly Solution: Verxio Protocol aims to be accessible and user-friendly for both power users and non-power users. The generation and usage of Verxio Protocol IDs and stealth addresses are designed to be simple and intuitive, enabling a wide range of users to adopt and utilize the solution without technical complexity.
-
-- Affordability and Speed: Verxio Protocol is built on the Polygon Blockchain, chosen for its fast and affordable transactions. By leveraging Polygon blockchain, Verxio Protocol offers users the benefits of privacy without sacrificing transaction speed or incurring high fees commonly associated with other privacy-focused solutions.
-
-- Bridge the Gap: Verxio Protocol fills the gap between expensive and complex privacy solutions, such as Monero, and non-private transfers on transparent blockchains. It provides an intermediate solution that offers a significant level of privacy without the need for specialized tools or high costs.
-
-- Wide Applicability: Verxio Protocol's privacy solution can be applied to various use cases. It can benefit individuals who want to keep their financial transactions private, businesses that need to protect their financial information, and anyone concerned about the risks associated with revealing their identity during transactions.
-
-- Market Differentiation: Verxio Protocol stands out in the market by offering a unique approach to privacy in blockchain transactions. While other solutions rely on heavy computations or complex methodologies, Verxio Protocol simplifies the process with stealth addresses and Verxio Protocol IDs, making it more accessible and user-friendly.
-
-### ✒ Technical Description
-- The Verxio Protocol solution implements stealth addresses on the Polygon Blockchain using a combination of cryptographic techniques to ensure transaction security and user privacy. Let’s break down the key steps and encryption methods involved:
-
-- Stealth Addresses Generation:
-    Receiver, generates a root spending key (receiver private key) and computes a stealth meta-address (receiver public key or receiver’s address) using elliptic curve cryptography. This stealth meta-address (receiver’s address) becomes a publicly known identifier for the receiver on the blockchain.
-
-- Ephemeral Key Generation:
-    The Sender, generates an ephemeral key (sender’s private key) which the sender keeps secret. This key is like a temporary secret code.
-
-- Shared Secret Creation:
-    The Sender combines his ephemeral key (sender’s private key) with Receiver’s stealth meta-address (receivers public key) to create a shared secret (S). This shared secret is a private connection between Sender and Receiver.
-
-- Ephemeral Public Key Publishing:
-    Sender creates an ephemeral public key (senders public key) from his ephemeral key (senders private key) and publishes it on a public registry. This public key can be seen by anyone.
-
-- Transaction Process:
-    Sender sends funds to a stealth address, which is derived from the combination of his ephemeral key (senders private key) and Receiver’s meta-address (receivers public key).
-
-- Recipient’s Discovery:
-    Receiver scans the public registry for ephemeral public keys (senders public key) and tries to unlock special addresses (stealth addresses) using his spending key (receivers private key) and the shared secrets (S). If funds are found in an address, Receiver can access them.
-
-- Address Ownership and Privacy:
-    The transaction details are recorded on the blockchain, but the connection between the recipient’s real address and the stealth address remains private. This adds a layer of privacy by making it difficult for external observers to link transactions to specific recipients.
-
-- The cryptographic techniques used in this process include:
-
-    Elliptic Curve Cryptography (ECC): This is used to generate private and public keys, compute shared secrets, and create addresses. ECC provides a secure way to perform mathematical operations that ensure transaction security and privacy.
-
-    Hash Functions: Hashing is used to derive addresses from public keys and shared secrets. Hash functions are one-way functions that add an extra layer of security to the process.
-
-    Public Key Registries: The public registry where ephemeral public keys are published allows participants (like Receiver) to scan and identify stealth addresses. This mechanism helps maintain privacy without revealing the actual recipient’s address.
-
-The Verxio Protocol solution leverages these cryptographic methods to create a system where transactions are secure, and recipient privacy is preserved through the use of stealth addresses.
-
-### 💻 Implementation
-- We have started with a standard Hardhat project and added essential methods to the StealthAddress contract. To enhance credibility, we intentionally avoided making the contract upgradeable, as there's no on-chain governance currently. If an upgrade is needed, we'll deploy a new version and provide client-side support.
-- Next, we developed the UI/UX using React and TypeScript, focusing on a simple yet elegant design for both power and non-power users. The UI colors and feel is being build keeping in mind the Polygon Blockchain.
-- We used wagmi library for blockchain interactions which streamlined the process.
-- The elliptic library handled the complex math involved with elliptic curves, and both libraries featured TypeScript typings, making them a joy to work with.
-- We used Streamr Client to store all user transactions to a Data Pool on Streamr Hub
-- Tools Used: Solidity, Hardhat, Polygon Blockchain, React, Typescript, Wagmi and Metamask.
-
-### 👥 Intended Users
-- The intended users of Verxio Protocol would be anyone who values privacy in their transactions and wants to keep their identity hidden. This could include individuals who want to keep their financial transactions private, businesses that want to protect their financial information, or anyone who wants to avoid the risks associated with revealing their identity in a transaction.
-- Verxio Protocol is designed to be user-friendly for both power and non-power users, making it accessible to a wide range of people.
-
-### ⚔ Challenges
-- The main challenge was designing the best possible user experience, which we believe the current implementation achieves.
-- Another challenge was signing and sending withdrawal transactions without using the connected user wallet. We resolved this by creating a custom-built transaction broadcasted via public RPC URLs, which works effectively.
-
-
-### ☄️ What's next?
-- Currently, Verxio Protocol only supports native coin transfers(MATIC). However, adding support for tokens and NFTs would greatly enhance its utility. We are considering implementing relayer nodes to mint and sell notes as tokens (or NFTs) in exchange for covering user fees on transfers.
-- This approach allows users to maintain their anonymity while using note tokens to request relayers to cover fees and pay for transactions. Competition between relayers could help keep transfer fees reasonable.
-- Making it live on the Polygon Mainnet 😉
-- Expanding Verxio Protocol by enabling cross-chain transactions. Additionally, gas optimization in the StealthAddress contract and its interaction with the receiving side can be improved.
-- Obtaining a legal opinion on Verxio Protocol's regulatory compliance would be beneficial. However, since the StealthAddress contract is on the blockchain and the code is available on GitHub, funds will remain accessible even if the website is shut down.
-- Future UX improvements include notifications for funds received on new controlled stealth addresses and a mobile app (although the website is mobile-friendly). The possibilities are endless!
-
-### 🌟 Conclusion
-- Verxio Protocol is a user-friendly and innovative solution that addresses the growing need for privacy in blockchain transactions. By leveraging stealth addresses and the Polygon Blockchain, Verxio Protocol provides a simple and cost-effective way for users to keep their financial transactions private. With a substantial market opportunity and a focus on usability, Verxio Protocol has the potential to become a leading privacy solution in the blockchain industry.
-
-
+![demoimage](https://github.com/DocRace/magipop-creathon-identity/blob/main/demo-images/1.png)
+![demoimage](https://github.com/DocRace/magipop-creathon-identity/blob/main/demo-images/2.png)
+![demoimage](https://github.com/DocRace/magipop-creathon-identity/blob/main/demo-images/3.png)
+![demoimage](https://github.com/DocRace/magipop-creathon-identity/blob/main/demo-images/4.png)
+![demoimage](https://github.com/DocRace/magipop-creathon-identity/blob/main/demo-images/5.png)
+![demoimage](https://github.com/DocRace/magipop-creathon-identity/blob/main/demo-images/6.png)
+![demoimage](https://github.com/DocRace/magipop-creathon-identity/blob/main/demo-images/7.png)
