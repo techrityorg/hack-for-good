@@ -5,7 +5,12 @@ The game takes player on an adventure to mitigate water pollution
 The game enlightens the player on the importance of water pollution
 
 APK Build:
-Build Folder of the Repo : https://drive.google.com/drive/folders/1-88Axo3P0H7DvgALE5BPAVgQFiTUCqyd
+Build Folder of the Repo
+https://drive.google.com/drive/folders/1-88Axo3P0H7DvgALE5BPAVgQFiTUCqyd
 
-GamePlay Video : https://drive.google.com/drive/folders/1-88Axo3P0H7DvgALE5BPAVgQFiTUCqyd
-Clean N Breathe
+GamePlay Video
+https://drive.google.com/drive/folders/1-88Axo3P0H7DvgALE5BPAVgQFiTUCqyd
+
+Contact
+Phone : +2348145629787
+Email : oluabesegun@gmail.com or ayomideolawale452@gmail.com
