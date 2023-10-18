@@ -1,10 +1,4 @@
-# Hack for Good 2023
-
-![Banner Image](./images/hack-for-good-banner-image.png)
-
-_Starts 18th September, 2023 - 17th October, 2023!_
-
-🚨🚨 Calling all tech communities, hubs, startups and tech enthusiasts to participate in the Hack for Good 2023 organized by Techrity!
+# Hack for Good
 
 [Hack for Good](https://t4g.techrity.org/) aims to bring together builders, innovators and thinkers to develop and hack veritable use cases and solutions aimed at solving unique challenges within the African continent.
 
@@ -85,26 +79,6 @@ Sponsor a Track: [Tech for Good Track Sponsor Registration](https://bit.ly/hack-
 ## Tech for Good Timeline and Schedule
 
 Tech for Good Conf 3.0 Schedule of activities:
+![Gameplay](https://github.com/samar19/pic-/blob/master/Black%20Orange%20Modern%20Studio%20Logo.png)
 
-| Date                 | Activity                                 |
-| -------------------- | ---------------------------------------- |
-| August, 2023         | Tech for Good 2023 Announcement          |
-|                      | Call for Speakers                        |
-|                      | Call for Project Ideas for Hack for Good |
-|                      | Call for Mentor for Mentorship Awards    |
-|                      |                                          |
-| September, 2023      | Hack for Good Entry Announcements        |
-|                      | Hack for Good Entry Project Approvals    |
-|                      | Hack for Good Judges Announcement        |
-|                      | Hack for Good Participant Announcement   |
-| 11th September, 2023 | Hack for Good Hackathon Commencement     |
-|                      |                                          |
-| 10th October, 2023   | Hack for Good Project Submission         |
-|                      | Hack for Good Project Judging Begins     |
-|                      |                                          |
-| 21st October, 2023   | Tech for Good 2023                       |
-|                      | Hack for Good Winner Announcement        |
-|                      | Mentorship Awards                        |
-|                      | Social Impact Project Showcase           |
-
-_Happy Hacking 🚀🚀!!_
+Happy Building!
