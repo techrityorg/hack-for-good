@@ -75,3 +75,9 @@ The app's value proposition is built on three pillars:
 **Community and Impact:** Planet Zo fosters a sense of community, connecting like-minded individuals and inspiring collective action. Users can participate in environmental challenges and contribute directly to global preservation efforts through carbon offset integration and partnerships with environmental organizations.
 
 In a world facing unprecedented environmental challenges, Planet Zo is the bridge between awareness and action, offering a comprehensive platform for individuals to understand, track, and reduce their environmental footprint while making a positive impact on climate change and ozone layer preservation. It is a transformative force, a promise of a better, more sustainable future for our planet.
+
+# Contact 
+Name: Obioma Godswill Michael
+Email: mickymouze778@gmail.com
+Phone Number : 09032581467
+
