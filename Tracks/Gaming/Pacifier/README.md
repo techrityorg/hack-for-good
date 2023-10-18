@@ -1,4 +1,4 @@
-### Pacifier
+## Pacifier
 
 Do you have what it takes to lead?
 
@@ -13,9 +13,11 @@ https://hanzzo.itch.io/pacifier
 
 ### Link to Gameplay video
 
-https://drive.google.com/file/d/16KVvNj9SrN9fBz4RjSCzI2s1BFVFZm1l/view?usp=share_link
+<iframe src="https://drive.google.com/file/d/16KVvNj9SrN9fBz4RjSCzI2s1BFVFZm1l/view?usp=share_link" frameborder="0" width="640" height="360" allowfullscreen></iframe>
 
-###Snapshots
+
+
+### Snapshots
 
 ![Gameplay](https://img.itch.zone/aW1hZ2UvMjMxODY5OS8xMzczNjMzOS5wbmc=/original/6Y9edC.png)
 
