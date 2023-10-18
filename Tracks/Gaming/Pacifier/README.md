@@ -2,6 +2,9 @@
 
 Do you have what it takes to lead?
 
+### Contact
+Email : [westtmu@gmail.com](mailto:westtmu@gmail.com)
+
 ### Description
 
 In this game, the player assumes the role of a state governor, drawing inspiration from real-life events to enable players to make decisions as if they held political power, observing the consequences of their choices on the entire nation. 
