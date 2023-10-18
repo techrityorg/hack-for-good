@@ -13,7 +13,8 @@ https://hanzzo.itch.io/pacifier
 
 ### Link to Gameplay video
 
-<iframe src="https://drive.google.com/file/d/16KVvNj9SrN9fBz4RjSCzI2s1BFVFZm1l/view?usp=share_link" frameborder="0" width="640" height="360" allowfullscreen></iframe>
+[Watch the Gameplay Video](https://drive.google.com/file/d/16KVvNj9SrN9fBz4RjSCzI2s1BFVFZm1l/view?usp=sharing)
+
 
 
 
