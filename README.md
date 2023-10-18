@@ -2,6 +2,8 @@
 
 [Hack for Good](https://t4g.techrity.org/) aims to bring together builders, innovators and thinkers to develop and hack veritable use cases and solutions aimed at solving unique challenges within the African continent.
 
+See [Submission Instructions](/Tracks/README.md)
+
 ## About Tech for Good
 
 The Tech for Good is a hybrid conference which aims to showcase the impact of using Technology for Social Good in Africa. As part of Tech for Good 3.0 Conference, Hack for Good aims to bring together tech communities, hubs, startups, builders, innovators to develop and hack veritable use cases and solutions aimed at solving unique challenges within the African continent.
