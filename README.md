@@ -6,6 +6,9 @@ Pacifier is a game that immerses players in a situation where they wield authori
 ### Link to the game
 https://hanzzo.itch.io/pacifier
 
+### Link to Gameplay Video
+https://drive.google.com/file/d/16KVvNj9SrN9fBz4RjSCzI2s1BFVFZm1l/view?usp=share_link
+
 ### Screenshots
 
 ![Gameplay](https://img.itch.zone/aW1hZ2UvMjMxODY5OS8xMzczNjMzNy5wbmc=/original/Kh%2F1XF.png)
