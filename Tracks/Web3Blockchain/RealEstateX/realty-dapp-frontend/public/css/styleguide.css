@@ -1,0 +1,21 @@
+:root {
+  --bold-font-family: "Montserrat-Bold", Helvetica;
+  --bold-font-size: 72.72222900390625px;
+  --bold-font-style: normal;
+  --bold-font-weight: 700;
+  --bold-letter-spacing: 0px;
+  --bold-line-height: 103.8888931274414px;
+  --med-font-family: "Montserrat-Medium", Helvetica;
+  --med-font-size: 16px;
+  --med-font-style: normal;
+  --med-font-weight: 500;
+  --med-letter-spacing: 0px;
+  --med-line-height: 24px;
+  --regular-font-family: "Montserrat-Regular", Helvetica;
+  --regular-font-size: 25px;
+  --regular-font-style: normal;
+  --regular-font-weight: 400;
+  --regular-letter-spacing: 0px;
+  --regular-line-height: 31.166667938232422px;
+  --variable-collection-pri: rgba(0, 11, 114, 1);
+}
