@@ -1,11 +1,11 @@
-<<<<<<< HEAD
+
 # ReforestAI: Battling Climate Change with Smart Forest Solutions
 
 
 ReforestAI is a transformative initiative that addresses deforestation, an urgent challenge with profound implications for climate change and environmental health. Leveraging advanced technology, including AI, robotics, and IoT sensors, the project combines data-driven insights with a deep commitment to forest conservation. It's dedicated to combating illegal logging, promoting sustainable forestry practices, and safeguarding forests as vital allies in the fight against climate change.
 
 
-=======
+
 
 # ReforestAI: Battling Climate Change with Smart Forest Solutions
 
@@ -21,7 +21,6 @@ See [Submission Instructions](/Tracks/README.md)
 ## About Tech for Good
 
 
->>>>>>> 85496a63c5cbd6403df25f5dd9b6d381e760572b
 - REFOREST AI OFFICIAL REPO: (https://github.com/LesleyJohnJumbo/hack-for-good.git)
 - REFOREST-AI DEMO VIDEO: 
 - REFOREST-AI PITCH DECK: (https://www.linkedin.com/posts/lesley-john-jumbo-970466233_my-video-demo-for-hack-for-good-activity-7120181463278366720-3Aws?utm_source=share&utm_medium=member_desktop
@@ -149,7 +148,6 @@ We’re all about helping new talents into Tech and building innovative solution
 ## Judging Criteria
 
 ![Judging Criteria](./images/Judging_info.png)
->>>>>>> 85496a63c5cbd6403df25f5dd9b6d381e760572b
 
 
 ## Judges
