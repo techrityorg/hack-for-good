@@ -13,8 +13,14 @@ https://hanzzo.itch.io/pacifier
 
 ### Link to Gameplay video
 
+https://drive.google.com/file/d/16KVvNj9SrN9fBz4RjSCzI2s1BFVFZm1l/view?usp=share_link
+
+###Snapshots
+
 [!Screenshot](https://img.itch.zone/aW1hZ2UvMjMxODY5OS8xMzczNjMzOS5wbmc=/original/6Y9edC.png)
+
 [!Screenshot](https://img.itch.zone/aW1hZ2UvMjMxODY5OS8xMzczNjMzOC5wbmc=/original/aZ8BQP.png)
+
 [!Screenshot](https://img.itch.zone/aW1hZ2UvMjMxODY5OS8xMzczNjM0MC5wbmc=/original/19RXvq.png)
 
 
