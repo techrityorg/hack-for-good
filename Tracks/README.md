@@ -1,7 +1,7 @@
 Important Info for Project Submission
 =====================================
 
-Please read carefully
+_Please read carefully_
 
 - Pull the latest changes on the hack-for-good repo
 - Ensure to create a folder with your project name inside the track for which you're applying to
@@ -10,4 +10,4 @@ Please read carefully
 - Push the latest changes 
 - Create a Pull Request
 
-Thanks
+Thank you.
