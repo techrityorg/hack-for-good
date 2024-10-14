@@ -1,15 +1,10 @@
-# Hack for Good
+# Hack for Good 2.0
 
 [Hack for Good](https://t4g.techrity.org/) aims to bring together builders, innovators and thinkers to develop and hack veritable use cases and solutions aimed at solving unique challenges within the African continent.
 
-See [Submission Instructions](/Tracks/README.md)
+See [Submission Instructions](/README.md)
 
 See [Hack for Good Projects on Dorahacks](https://dorahacks.io/org/techrityorg)
-
-
-## About Tech for Good
-
-The Tech for Good is a hybrid conference which aims to showcase the impact of using Technology for Social Good in Africa. As part of Tech for Good 3.0 Conference, Hack for Good aims to bring together tech communities, hubs, startups, builders, innovators to develop and hack veritable use cases and solutions aimed at solving unique challenges within the African continent.
 
 ## About Techrity
 
@@ -39,21 +34,14 @@ Tracks is dependent on the hack for good year. For tracks per year, see the spec
 
 ![Judging Criteria](./images/Judging_info.png)
 
-
-## Judges
-
-
-## Mentors
-
-
-
-
 Important Info for Project Submission
 =====================================
 
 _Please read carefully_
 
-- Pull the latest changes on the hack-for-good repo
+- Fork the [Hack for Good Repo](https://github.com/techrityorg/hack-for-good)
+- Pull the latest changes
+- Locate the folder with Year and the Track for which you're hacking. For e.g, Hack for Good 2024 --> Health
 - Ensure to create a folder with your project name inside the track for which you're applying to
 - Add all files into your project folder
 - Create and Update README within your own project folder, add name of project, description, team members info, demo, video links, etc. 
@@ -61,7 +49,6 @@ _Please read carefully_
     - [PROJECT/TEAMNAME] --> README.md --> PROJECT FILES
 - Push the latest changes 
 - Create a Pull Request
-
 
 > Ensure to also submit project on [Dorahacks](https://dorahacks.io/org/techrityorg).
 

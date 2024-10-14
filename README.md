@@ -36,12 +36,10 @@ Tracks is dependent on the hack for good year. For tracks per year, see the spec
 ![Judging Criteria](./images/Judging_info.png)
 
 
-
 ## How to Register?
 
-
-* Register as a hacker: https://bit.ly/register-hack-for-good-2023 
-* Join the Techrity Slack Channel: https://bit.ly/h4g-2023-join-techrity 
+* Register as a hacker
+* Join the Techrity Slack Channel
 * Follow us on our socials: @techrityorg and @t4gafrica
 * Form a team: See the hackathon guide 
 * Start Building
@@ -56,9 +54,6 @@ and via Dora Hacks using the [Submit a Buidl button](https://dorahacks.io/org/te
 ## Want to Sponsor?
 
 Sponsor a Track. Send an email to [mailto:hello@techrity.org](mailto:hello@techrity.org)
-
-
-
 
 ## Tech for Good Timeline and Schedule
 
