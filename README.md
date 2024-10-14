@@ -37,7 +37,6 @@ Tracks is dependent on the hack for good year. For tracks per year, see the spec
 
 
 ## How to Register?
-
 * Register as a hacker
 * Join the Techrity Slack Channel
 * Follow us on our socials: @techrityorg and @t4gafrica
@@ -46,17 +45,11 @@ Tracks is dependent on the hack for good year. For tracks per year, see the spec
 
 
 ## How to Submit?
-
 * Submissions will be received via the **[Hack for Good Repo](https://github.com/techrityorg/hack-for-good)** on GitHub
 and via Dora Hacks using the [Submit a Buidl button](https://dorahacks.io/org/techrityorg)
 
 
 ## Want to Sponsor?
-
-Sponsor a Track. Send an email to [mailto:hello@techrity.org](mailto:hello@techrity.org)
-
-## Tech for Good Timeline and Schedule
-
-See [Year] for more info about timelines.
+* Sponsor a Track. Send an email to [mailto:hello@techrity.org](mailto:hello@techrity.org)
 
 Happy Building!
