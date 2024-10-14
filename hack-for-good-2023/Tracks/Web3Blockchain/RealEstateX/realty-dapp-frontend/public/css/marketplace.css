@@ -1,0 +1,442 @@
+.marketplace {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.marketplace .div {
+  background-color: #ffffff;
+  height: 2923px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.marketplace .ellipse {
+  background-color: #d9d9d9;
+  border-radius: 160px;
+  height: 320px;
+  left: -78px;
+  position: absolute;
+  top: -414px;
+  width: 320px;
+}
+
+.marketplace .frame {
+  background-color: #000000;
+  height: 717px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.marketplace .frame-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 42.17px;
+  left: 144px;
+  position: absolute;
+  top: 208px;
+}
+
+.marketplace .div-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 46.39px;
+  position: relative;
+}
+
+.marketplace .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 42.17px;
+  position: relative;
+}
+
+.marketplace .real-estate {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 59px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 84.3px;
+  margin-top: -1.05px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.marketplace .investors-around-the {
+  color: transparent;
+  font-family: "Montserrat", Helvetica;
+  font-size: 19.4px;
+  font-weight: 400;
+  left: 140px;
+  letter-spacing: 0;
+  line-height: 24.1px;
+  position: absolute;
+  top: 316px;
+  width: 688px;
+}
+
+.marketplace .text-wrapper {
+  color: #ffffff;
+}
+
+.marketplace .span {
+  color: #394ae4;
+}
+
+.marketplace .get-started-wrapper {
+  align-items: center;
+  border: 0.84px solid;
+  border-color: #ffffff;
+  border-radius: 16.88px;
+  display: flex;
+  gap: 43.03px;
+  height: 54px;
+  justify-content: center;
+  left: 140px;
+  padding: 8.44px 8.44px 8.44px 0px;
+  position: absolute;
+  top: 408px;
+  width: 270px;
+}
+
+.marketplace .get-started {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 16.9px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 20.2px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.marketplace .frame-3 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  left: 134px;
+  position: absolute;
+  top: 29px;
+  width: 1156px;
+}
+
+.marketplace .group {
+  height: 27px;
+  position: relative;
+  width: 74px;
+}
+
+.marketplace .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.marketplace .navbar {
+  height: 24px;
+  position: relative;
+  width: 443px;
+}
+
+.marketplace .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.marketplace .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 70px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.marketplace .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 151px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.marketplace .text-wrapper-6 {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 251px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.marketplace .text-wrapper-7 {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 330px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  text-decoration: underline;
+  top: 0;
+  white-space: nowrap;
+}
+
+.marketplace .frame-4 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 32px;
+  justify-content: center;
+  position: relative;
+}
+
+.marketplace .log-in {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.marketplace .frame-5 {
+  align-items: flex-start;
+  background-color: var(--variable-collection-pri);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.marketplace .text-wrapper-8 {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.marketplace .HOW-WE-WORK {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  left: 590px;
+  letter-spacing: 0;
+  line-height: 24.1px;
+  position: absolute;
+  top: 784px;
+  white-space: nowrap;
+}
+
+.marketplace .a-property {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 1634px;
+  width: 1162px;
+}
+
+.marketplace .text-wrapper-9 {
+  font-weight: 700;
+}
+
+.marketplace .text-wrapper-10 {
+  font-weight: 300;
+}
+
+.marketplace .r-offers-buyers-a {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+  left: 139px;
+  letter-spacing: 0;
+  line-height: 23.2px;
+  position: absolute;
+  top: 1193px;
+  width: 1162px;
+}
+
+.marketplace .legal-entities-can {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 141px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 2121px;
+  width: 1169px;
+}
+
+.marketplace .frame-6 {
+  background-color: #000b71;
+  height: 604px;
+  left: 0;
+  position: absolute;
+  top: 2319px;
+  width: 1440px;
+}
+
+.marketplace .overlap-group-wrapper {
+  background-color: #ffffff;
+  border-radius: 7.61px;
+  height: 236px;
+  left: 384px;
+  overflow: hidden;
+  position: absolute;
+  top: 189px;
+  width: 672px;
+}
+
+.marketplace .overlap-group {
+  height: 74px;
+  left: 96px;
+  position: relative;
+  top: 77px;
+  width: 500px;
+}
+
+.marketplace .subtract {
+  height: 64px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 500px;
+}
+
+.marketplace .EMAIL-ADDRESS {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 15.2px;
+  font-weight: 400;
+  left: 38px;
+  letter-spacing: 0;
+  line-height: 18.3px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.marketplace .subscribe-to-get {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  left: 518px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 108px;
+  white-space: nowrap;
+}
+
+.marketplace .frame-7 {
+  align-items: center;
+  border: 1.56px solid;
+  border-color: #ffffff;
+  border-radius: 7.81px;
+  display: flex;
+  gap: 7.81px;
+  justify-content: center;
+  left: 472px;
+  padding: 15.62px 33.59px;
+  position: absolute;
+  top: 472px;
+  width: 496px;
+}
+
+.marketplace .text-wrapper-11 {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 19.5px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 18.8px;
+  margin-top: -1.56px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.marketplace .element {
+  height: 280px;
+  left: 519px;
+  object-fit: cover;
+  position: absolute;
+  top: 1809px;
+  width: 420px;
+}
