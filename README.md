@@ -4,7 +4,7 @@
 
 See [Submission Instructions](/Tracks/README.md)
 
-See [Hack for Good 1.0 Buidls on Dorahacks](https://dorahacks.io/hackathon/hack-for-good-2023/)
+See [Hack for Good Projects on Dorahacks](https://dorahacks.io/org/techrityorg)
 
 
 ## About Tech for Good
@@ -19,12 +19,7 @@ We’re all about helping new talents into Tech and building innovative solution
 
 ## Tracks
 
-* AI and Machine Learning
-* Cybersecurity
-* Blockchain
-* Climate change
-* Gaming
-* Design
+Tracks is dependent on the hack for good year. For tracks per year, see the specific year for the hackathon you're participating.
 
 ## Terms and Conditions
 
@@ -41,20 +36,6 @@ We’re all about helping new talents into Tech and building innovative solution
 ![Judging Criteria](./images/Judging_info.png)
 
 
-## Judges
-TODO
-
-## Mentors
-TODO
-
-## Sponsors
-
-| Name of Sponsor | Logo |
-| --------------- | ---- |
-|          Techrity       |   ![Techrity logo](./images/techrity_logo_new.png)   |
-|          Mently       |    ![Mently logo](./images/mently1.png)  |
-|           XuperAuth      |   ![XuperAuth](./images/xuperauth_logo.jpg)   |
-
 
 ## How to Register?
 
@@ -68,23 +49,19 @@ TODO
 
 ## How to Submit?
 
-* Submissions will be received via the **Hack for Good 2023 Repo** on GitHub
-* Submit on Dora Hacks using the [Submit a Buidl button](https://bit.ly/register-hack-for-good-2023)
+* Submissions will be received via the **[Hack for Good Repo](https://github.com/techrityorg/hack-for-good)** on GitHub
+and via Dora Hacks using the [Submit a Buidl button](https://dorahacks.io/org/techrityorg)
 
 
 ## Want to Sponsor?
 
-Sponsor a Track: [Tech for Good Track Sponsor Registration](https://bit.ly/hack-for-good-track-sponsor-2023)
-
-![Call for Track Sponsor](./images/call_for_track%20Sponsors.png)
+Sponsor a Track. Send an email to [mailto:hello@techrity.org](mailto:hello@techrity.org)
 
 
 
 
 ## Tech for Good Timeline and Schedule
 
-
-Tech for Good Conf 3.0 Schedule of activities:
-![Gameplay](https://github.com/samar19/pic-/blob/master/Black%20Orange%20Modern%20Studio%20Logo.png)
+See [Year] for more info about timelines.
 
 Happy Building!

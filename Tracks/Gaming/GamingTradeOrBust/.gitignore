@@ -1,8 +1,0 @@
-# 忽略node_modules文件夹
-node_modules/
-
-# 忽略pnpm生成的文件
-pnpm-lock.yaml
-
-# 忽略package.json文件中的依赖项
-package-lock.json
