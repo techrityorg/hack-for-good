@@ -1,1 +1,0 @@
-export { Rent } from "./Rent";
