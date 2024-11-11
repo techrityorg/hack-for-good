@@ -1,5 +1,9 @@
 # Handyskills - Transformative E-Learning for Africa
 
+## Demo link :
+
+https://youtube.com/shorts/PoBasEGJQYM
+
 
 ## Introduction
 **Handyskills** is online training platform dedicated to trade skills in Africa, leveraging the power of Blockchain technology through NFT certificate minting. 
@@ -17,19 +21,21 @@ Join us in empowering the next generation of professionals and transforming care
 ## Installation
 1. Clone the repository:
 ```
-
+git clone https://github.com/Fifiboss98/Handyskills.git
 ```
 2. Navigate to the directory:
 ```
-
+cd Handyskills
 ```
 3. Install dependencies and run the server:
 ```
 pip intall -r requirements.txt
 ```
+4. Run the server
+```
 python manage.py runserver
 ```
-4. Open your web browser and go to http://localhost:8000.
+5. Open your web browser and go to http://localhost:8000.
   
   
 ## Technologies used
@@ -47,4 +53,6 @@ python manage.py runserver
 4. Course catalog with various categories.
 5. Responsive design for mobile and tablet devices.
 6. AI Chatbot
+
+Feel free to contact.
 
