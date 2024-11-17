@@ -4,10 +4,10 @@
 <h2>Team Members</h2>
 <ul>
   <li>Name: Role</li>
-  <li>Praise: Backend Developer</li>
-  <li>Emmanuel: Backend Developer</li>
-  <li>Whakee: Frontend Developer</li>
-  <li>Oreoluwa: Frontend Developer</li>
+  <li>Praise Okere: Backend Developer</li>
+  <li>Emmanuel Elumeze: Backend/Robotics Engineer</li>
+  <li>Uwakmfon Ekong: Frontend Developer</li>
+  <li>Olugbogi Oreoluwa: Frontend Developer</li>
 </ul>
 
 <h2>Resources</h2>
@@ -25,4 +25,5 @@
     </ul>
   </li>
     <li>Please use <span><a href="https://github.com/Emmybrown775/mediVault_v2">this link</a></span> to visit the code repo</li>
+  <li>Please use <span><a href="https://app.pitch.com/app/reader/8f6ed3ca-f6bf-4685-b822-5397cbcdec65/11f1e859-05fb-45ee-b7ef-275001d054b8/7d1fa82b-93d2-49b2-b9ce-f85f3bad66b7">this link</a></span> to view the pitch deck</li>
 </ul>
