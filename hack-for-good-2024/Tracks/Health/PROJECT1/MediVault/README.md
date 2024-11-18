@@ -12,7 +12,7 @@
 
 <h2>Resources</h2>
 <ul>
-  <li>Please use <span><a href="https://youtu.be/iClAP_fU5ZA">this link</a></span> to watch the demonstration video</li>
+  <li>Please use <span><a href="https://youtu.be/VLcNOWd5hbw">this link</a></span> to watch the demonstration video</li>
   <li>
     Please use <span><a href="https://medi-vault-v2.vercel.app/login">this link</a></span> to view the live website demo
     and send an email to elumezeemma@gmail.com for a new card_uuid pr use the following to Sign up
