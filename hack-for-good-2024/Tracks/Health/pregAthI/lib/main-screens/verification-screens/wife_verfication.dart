@@ -1,0 +1,141 @@
+import 'dart:async';
+
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
+import 'package:pregathi/buttons/main_button.dart';
+import 'package:pregathi/buttons/sub_button.dart';
+import 'package:pregathi/const/constants.dart';
+import 'package:pregathi/db/shared_pref.dart';
+import 'package:pregathi/navigators.dart';
+import 'package:pregathi/widgets/home/bottom_page.dart';
+import 'package:sizer/sizer.dart';
+
+class WifeEmailVerify extends StatefulWidget {
+  const WifeEmailVerify({super.key});
+
+  @override
+  State<WifeEmailVerify> createState() => _WifeEmailVerifyState();
+}
+
+class _WifeEmailVerifyState extends State<WifeEmailVerify> {
+  bool isEmailVerified = false;
+  bool canResendEmail = false;
+  Timer? timer;
+
+  @override
+  void initState() {
+    super.initState();
+
+    isEmailVerified = FirebaseAuth.instance.currentUser!.emailVerified;
+
+    if (!isEmailVerified) {
+      UserSharedPreference.setUserRole('');
+      sendVerificationEmail();
+    }
+
+    timer = Timer.periodic(
+      Duration(seconds: 3),
+      (_) => checkEmailVerified(),
+    );
+  }
+
+  @override
+  void dispose() {
+    timer?.cancel();
+
+    super.dispose();
+  }
+
+  Future checkEmailVerified() async {
+    await FirebaseAuth.instance.currentUser!.reload();
+
+    setState(() {
+      isEmailVerified = FirebaseAuth.instance.currentUser!.emailVerified;
+    });
+
+    if (isEmailVerified) timer?.cancel();
+  }
+
+  Future sendVerificationEmail() async {
+    try {
+      final user = FirebaseAuth.instance.currentUser!;
+      await user.sendEmailVerification();
+      showSnackBar(context, 'Verification email sent successfully!');
+
+      setState(() => canResendEmail = false);
+      await Future.delayed(Duration(seconds: 5));
+      setState(() => canResendEmail = true);
+    } catch (e) {
+      dialogueBox(context, e.toString());
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    if (isEmailVerified) {
+      UserSharedPreference.setUserRole('wife');
+      return BottomPage();
+    } else {
+      return Scaffold(
+        body: SafeArea(
+          child: Padding(
+            padding: const EdgeInsets.all(10),
+            child: Stack(
+              children: [
+                Center(
+                  child: SingleChildScrollView(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text(
+                          'Verify email',
+                          style: TextStyle(
+                            fontSize: 32.sp,
+                            fontWeight: FontWeight.bold,
+                            color: primaryColor,
+                          ),
+                        ),
+                        Image.asset(
+                          'assets/images/login/email_verification.png',
+                          height: 20.h,
+                          width: 30.w,
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(
+                              left: 20, right: 20, top: 15),
+                          child: Text(
+                            'A verification mail has been sent to your email',
+                            style: TextStyle(
+                              color: primaryColor,
+                              fontSize: 20.sp,
+                            ),
+                            textAlign: TextAlign.center,
+                          ),
+                        ),
+                        SizedBox(
+                          height: 4.h,
+                        ),
+                        MainButton(
+                            title: 'Resend email',
+                            onPressed: () async {
+                              canResendEmail ? sendVerificationEmail() : null;
+                            }),
+                        SubButton(
+                          title: 'Cancel',
+                          onPressed: () async {
+                            await FirebaseAuth.instance.signOut();
+                            navigateToLogin(context);
+                          },
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      );
+    }
+  }
+}
