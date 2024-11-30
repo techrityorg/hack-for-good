@@ -1,0 +1,197 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock title %}
+
+{% block content %}
+
+<section class="hero-section">
+    <div class="hero-content container">
+        <div class="hero-text">
+            <h1>Handyskills: Transformative E-Learning for Africa.</h1>
+            <p>
+                Embrace Innovation, Develop Hand Skills and Take Control of Your Professional Development Today.
+            </p>
+            <div style="display: flex; column-gap: .5rem; margin-top: 2rem;" class="hero-cta-btn">
+                <a style="display: inline-flex; column-gap: .3rem;" class="btn" href="/accounts/signup">
+                    Enroll now
+                    {% comment %} <img style='height: 1.5rem; width: 1.5rem;' src='{% static 'img/arrow-right.svg' %}'> {% endcomment %}
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.4697 8.53033C13.1768 8.23744 13.1768 7.76256 13.4697 7.46967C13.7626 7.17678 14.2374 7.17678 14.5303 7.46967L18.5303 11.4697C18.8232 11.7626 18.8232 12.2374 18.5303 12.5303L14.5303 16.5303C14.2374 16.8232 13.7626 16.8232 13.4697 16.5303C13.1768 16.2374 13.1768 15.7626 13.4697 15.4697L16.1893 12.75H6.5C6.08579 12.75 5.75 12.4142 5.75 12C5.75 11.5858 6.08579 11.25 6.5 11.25H16.1893L13.4697 8.53033Z" fill="white"/>
+                    </svg>                        
+                </a>
+                <a style="display: inline-flex; column-gap: .3rem;" class="btn" href="/courses">
+                    Explore Courses
+                </a>
+            </div>
+        </div>
+        <div class="hero-img">
+            <img src='{% static 'img/home.jpg' %}'>
+        </div>
+    </div>
+</section>
+
+<section class="home-course-categories">
+    <div class="container home-course-categories-content">
+        <h2>Start Learning Now</h2>
+        <p style="margin: 1rem 0;">Hand skills open doors to diverse career opportunities and widen the job market for young Africans.</p>
+        <div class="course-categories">
+            <div class="category">
+                <h3>Carpentry</h3>
+                <p style="margin-top: 1rem;">Learn How to Build and Repair Structures, Furniture, and Cabinetry</p>
+                <a href="/courses/development">
+                    <span class="link"></span>
+                </a>
+            </div>
+
+            <div class="category">
+                <h3>Plumbing</h3>
+                <p style="margin-top: 1rem;">Learn How to Install and Repair Water Systems, Fixtures and Drainage.</p>
+                <a href="/courses/design">
+                    <span class="link"></span>
+                </a>
+            </div>
+            
+            <div class="category">
+                <h3>Electrical Work</h3>
+                <p style="margin-top: 1rem;">Learn How to Install and Maintain Electrical Systems and Equipment.</p>
+                <a href="/courses/business">
+                    <span class="link"></span>
+                </a>
+            </div>
+            
+            <div class="category">
+                <h3>Culinary Skills</h3>
+                <p style="margin-top: 1rem;">Learn How to Cook various recipies.</p>
+                <a href="/courses/datascience">
+                    <span class="link"></span>
+                </a>
+            </div>
+            
+            <div class="category">
+                <h3>Massage Therapy</h3>
+                <p style="margin-top: 1rem;">Learn How to Provide Physical Relief and Healing Through Skilled Touch.</p>
+                <a href="/courses/health">
+                    <span class="link"></span>
+                </a>
+            </div>
+            
+            <div class="category">
+                <h3>Renewable Energy Installation</h3>
+                <p style="margin-top: 1rem;">Learn How to Install Solar Systems and Maintenance.</p>
+                <a href="/courses/communication">
+                    <span class="link"></span>
+                </a>
+            </div>
+            
+            <div class="category">
+                <h3>Fashion Design</h3>
+                <p style="margin-top: 1rem;">Learn How to Craft Traditional and Modern Clothing Tailored to Local Markets</p>
+                <a href="/courses/entertainment">
+                    <span class="link"></span>
+                </a>
+            </div>
+
+            <div class="category">
+                <h3>Hairdressing and Beauty Therapy</h3>
+                <p style="margin-top: 1rem;">Learn How to Provide Grooming services, Particularly in Urban Areas.</p>
+                <a href="/courses/science">
+                    <span class="link"></span>
+                </a>
+            </div>
+            
+            <div class="category">
+                <h3>Baking and Pastry</h3>
+                <p style="margin-top: 1rem;">Learn How to Craft Baked Goods and Desserts, Tapping Into Local Cultures.</p>
+                <a href="/courses/artdesign">
+                    <span class="link"></span>
+                </a>
+            </div>
+         
+        </div>
+    </div>
+</section>
+
+<section class="home-featured-courses">
+    <div class="container home-featured-courses-content">
+        <h2>Featured Courses</h2>
+        <p style="margin: 1rem 0;">Discover our top-rated courses and get your certificate after completion.</p>
+        <div class="courses">
+            {% for course in courses|slice:3 %}
+<div class="course">
+    <div class="course-thumbnail">
+        <a href="{% url 'course_details' instructor=course.instructor slug=course.slug %}">
+            <img style="width: fill; height: 12rem;" src='{{course.thumbnail.url}}'>
+        </a>
+    </div>
+    <div class="course-details">
+        <a href="{% url 'course_details' instructor=course.instructor slug=course.slug %}"><h3>{{ course.title|slice:":80" }}</h3></a>
+        <p style="display: inline-flex; column-gap: 1rem; justify-content: center; align-items: center;" class="instructor">
+            <img class="instructor-img" src="https://api.dicebear.com/5.x/shapes/svg?seed={{ course.instructor }}">
+            Instructor: {{ course.instructor }}
+        </p>
+        <p class="course-desc">{{ course.description|truncatewords:20 }}</p>
+        <p class="course-lvl-time">
+            {{ course.level }} &middot; {{ course.duration }} Hours
+        </p>
+        <a href="{% url 'course_details' instructor=course.instructor slug=course.slug %}" class="btn enroll-btn">Enroll now</a>
+    </div>
+</div>
+{% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="home-testimonials">
+    <div class="container home-testimonials-content">
+        <h2>Testimonials</h2>
+        <p style="margin: 1rem 0;">Hear from our satisfied students.</p>
+        <div class="testimonial-grid">
+        <img src='{% static 'img/testimonial-img.webp' %}'>
+        <div class="testimonial-container">
+            <div id="testimonial-0" class="testimonial">
+                <img src="https://api.dicebear.com/5.x/shapes/svg?seed=JohnDoe">
+                <p style=" margin: .5rem 0;">"I've taken many online courses before but this is the first one where I learned real skills."</p>
+                <h3>- John Doe</h3>
+                <p style="font-size: small;">Furniture Maker</p>
+            </div>
+            <div id="testimonial-1" class="testimonial">
+                <img src="https://api.dicebear.com/5.x/shapes/svg?seed=Felix">
+                <p>"The course exceeded my expectations. It covered everything from the basics to advanced techniques. Highly recommend!"</p>
+                <h3>- Sarah K</h3>
+                <p style="font-size: small;">Chef</p>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<section class="home-faq">
+    <div class="container home-faq-content">
+        <h2>Got questions?</h2>
+        <p style="margin: 1rem 0;">Check out our FAQ section to learn more about Handyskills</p>
+        <div class="faq-container">
+            <div class="faq">
+                <p class="question">What is Handyskills?</p>
+                <p class="answer">Handyskills is the first online learning management system (LMS) that offers courses and training programs about handskills in order to boost the development of Africa. It is designed to provide users with a personalized and engaging learning experience.</p>
+            </div>
+            <div class="faq">
+                <p class="question">Who can use Handyskills?</p>
+                <p class="answer">Handyskills is open to anyone who wants to learn and improve their skills. Our courses are designed for individuals, businesses, and organizations looking to develop their knowledge and skills.</p>
+            </div>
+            <div class="faq">
+                <p class="question">How do I sign up for Handyskills?</p>
+                <p class="answer">You can sign up for Handyskills by visiting our website and clicking on the "Sign Up" button. You will need to provide some basic information, such as your name and email address, to create an account.</p>
+            </div>
+            <div class="faq">
+                <p class="question">How much do Handyskills courses cost?</p>
+                <p class="answer">The cost of courses on Handyskills varies depending on the subject, the level of the course, and the instructor. Some courses are free, while others may cost a couple of dollars. You can view the price of a course on the course page before enrolling.</p>
+            </div>
+            <div class="faq">
+                <p class="question">What is the refund policy for Handyskills courses?</p>
+                <p class="answer">The refund policy for Handyskills courses varies depending on the course and the instructor. Some courses may offer a full refund within a certain timeframe, while others may not offer refunds at all. You can view the refund policy for a course on the course page before enrolling.</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}
